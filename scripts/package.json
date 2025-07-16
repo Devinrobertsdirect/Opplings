@@ -1,0 +1,15 @@
+{
+  "name": "opplings-scripts",
+  "version": "1.0.0",
+  "description": "QR code generator scripts for OpplingsEngine",
+  "main": "generate_qr.js",
+  "scripts": {
+    "generate": "node generate_qr.js"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0",
+    "qrcode": "^1.5.3",
+    "pg": "^8.11.1",
+    "dotenv": "^16.3.1"
+  }
+} 

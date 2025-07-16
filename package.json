@@ -1,0 +1,12 @@
+{
+  "name": "opplings-engine",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "scripts"
+  ],
+  "scripts": {
+    "install:all": "npm install --workspaces"
+  }
+} 
